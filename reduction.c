@@ -4,13 +4,15 @@
 #define ITERATION_NUM 100
 #define ARRAY_NUM 100000000
 
-int array[ARRAY_NUM];
+// 整数、浮動小数点数で変更
+double array[ARRAY_NUM];
 
 int main(void)
 {
 	int i;
 	int it;
-	int sum = 0;
+	// 整数、浮動小数点数で変更
+	double sum = 0;
 	double start_sec, end_sec, all_time;
 
 	for(i = 0; i < ARRAY_NUM; i++) 
